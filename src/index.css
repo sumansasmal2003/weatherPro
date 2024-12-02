@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animated Border Color */
+.animate-border-color {
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 10px 20px;
+  animation: border-color-animation 3s infinite;
+}
+
+/* Keyframes for border color animation */
+@keyframes border-color-animation {
+  0% {
+    border-color: red;
+  }
+  25% {
+    border-color: orange;
+  }
+  50% {
+    border-color: yellow;
+  }
+  75% {
+    border-color: green;
+  }
+  100% {
+    border-color: blue;
+  }
+}
